@@ -11,9 +11,6 @@ $anios = range(2005, 2014);
 
 define('URL_CONSULTA','http://www.aire.df.gob.mx/estadisticas-consultas/concentraciones/respuesta.php');
 
-# $conexionMongo = new Mongo();
-# $mongodb = $conexionMongo->aire-df;
-# $peticiones = $mongodb->peticiones;
 foreach($qtipos as $qtipo) {
     foreach($parametros as $parametro) {
         foreach($anios as $anio) {

@@ -3,18 +3,23 @@ API Calidad del aire DF
 
 API para obtener información histórica de contaminantes en el aire de la Ciudad de México
 
-## Mediciones de concentración por estación (2005-2014)
+#### Instalación y requisitos
+
+- Obtener info y guardar en HTML: PHP, Composer para depencencias
+- Parsear HTMLs y conversión a JSON: NodeJS requiere ```npm wscraper```
+
+#### Mediciones de concentración por estación (2005-2014)
 
 - http://www.aire.df.gob.mx/estadisticas-consultas/concentraciones/index.php
 - Están en el dir. ```html```
 - Comprimidas con 7Zip, pesan ~3.5 GB los HTML, ~42 MB ya comprimidos
 - Tiene mediciones para so2, co, nox, no2, no, o3, pm10, pm2, wsp, wdr, tmp, rh para todas las estaciones del DF, para todos los meses, días por hora:
 
-## IMECA en Excel desde 1992
+#### IMECA en Excel desde 1992
 
 - http://www.aire.df.gob.mx/estadisticas-consultas/consultas/download_imeca.php
 
-## Otra info
+#### Otra info
 
 Se puede hacer consulta de todos indicadores, varios años, todas las estaciones:
 
